@@ -145,3 +145,14 @@
     min-height: 1.875rem;
     height: 1em;
 }
+
+@media print,screen and (max-width:580px) {
+	.OwO .OwO-body{
+		width: 250px !important;
+		right: -25px;
+        background-color: #fff;
+	}
+	.OwO .OwO-body .OwO-items-image .OwO-item{
+		max-width: initial;
+	}
+}
